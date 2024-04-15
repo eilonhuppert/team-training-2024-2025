@@ -1,7 +1,7 @@
 /**
  * This subsystem is resposible for the "line up shot"
  * @arthur Eilon.h
- * @Version 2.0.0
+ * @Version 2.0.1
  */
 
 package frc.robot.Subsystem.ShooterArm;
@@ -62,6 +62,7 @@ public class ShooterArmSubsystem extends SubsystemBase implements ShooterArmCons
     configuration.SoftwareLimitSwitch.ReverseSoftLimitThreshold = BACKWARD_LIMIT;
     configuration.HardwareLimitSwitch.ReverseLimitAutosetPositionEnable = true;
     configuration.HardwareLimitSwitch.ReverseLimitAutosetPositionValue = 0;
+    configuration.HardwareLimitSwitch.ReverseSoftLimitEnable = true;
 
     configuration.Feedback.SensorToMechanismRatio = TICKS_PER_DEGREE; 
     configuration.MotorOutput.Inverted = InvertedValue.Clockwise_Positive;
