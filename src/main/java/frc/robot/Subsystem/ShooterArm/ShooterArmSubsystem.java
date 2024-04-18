@@ -63,7 +63,7 @@ public class ShooterArmSubsystem extends SubsystemBase implements ShooterArmCons
     configuration.HardwareLimitSwitch.ReverseLimitAutosetPositionEnable = true;
     configuration.HardwareLimitSwitch.ReverseLimitAutosetPositionValue = 0;
     configuration.HardwareLimitSwitch.ReverseLimitEnable = true;
-
+    
     configuration.Feedback.SensorToMechanismRatio = TICKS_PER_DEGREE; 
     configuration.MotorOutput.Inverted = InvertedValue.Clockwise_Positive;
     StatusCode statusCode = StatusCode.StatusCodeNotInitialized;
