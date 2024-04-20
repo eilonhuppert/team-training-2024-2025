@@ -3,7 +3,7 @@
  * @Version 2.0.0
 */
 
-package frc.robot.Subsystem.ShooterArm.Climb;
+package frc.robot.Subsystem.Climb;
 
 import com.revrobotics.CANSparkMax;
 import com.revrobotics.CANSparkLowLevel.MotorType;

@@ -1,4 +1,4 @@
-package frc.robot.Subsystem.ShooterArm.Climb;
+package frc.robot.Subsystem.Climb;
 
 public interface ClimbConstants {
     // CANSparkMax id
