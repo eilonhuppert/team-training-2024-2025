@@ -62,7 +62,8 @@ public class ShooterArmSubsystem extends SubsystemBase implements ShooterArmCons
     configuration.SoftwareLimitSwitch.ReverseSoftLimitThreshold = BACKWARD_LIMIT;
     configuration.HardwareLimitSwitch.ReverseLimitAutosetPositionEnable = true;
     configuration.HardwareLimitSwitch.ReverseLimitAutosetPositionValue = 0;
-    configuration.HardwareLimitSwitch.ReverseSoftLimitEnable = true;
+    configuration.HardwareLimitSwitch.ReverseLimitEnable = true;
+    //changed problometic line
 
     configuration.Feedback.SensorToMechanismRatio = TICKS_PER_DEGREE; 
     configuration.MotorOutput.Inverted = InvertedValue.Clockwise_Positive;
@@ -152,7 +153,7 @@ public class ShooterArmSubsystem extends SubsystemBase implements ShooterArmCons
   }
   //TODO: Add speakerInterpolate 
   
-
+//
   @Override
   public void periodic() {
     // This method will be called once per scheduler run
